@@ -1,6 +1,7 @@
 var Model = (function () {
     function Model() {
-        this.students = [{
+        this.students = [
+        {
                 Name: "John",
                 Age: 20,
                 Evaluation: 10
@@ -44,7 +45,7 @@ var Model = (function () {
     ]
     }
     
-    Model.prototype.get - function () {
+    Model.prototype.get = function () {
         return this.students;
     };
     
